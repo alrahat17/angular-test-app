@@ -1,0 +1,23 @@
+<!-- <h3>My email is {{email}}</h3> -->
+<h3>{{showEmail()}}</h3>
+<input [disabled]="isDisabled" type="text" value="Click me" id="{{myId}}">
+<Br><br>
+<input [(ngModel)]="name" type="text">
+<h4>{{name}}</h4>
+<h2 *ngIf="displayName; else elseBlock"></h2>
+<ng-template #elseBlock>
+    Name is Hidden
+</ng-template>
+<div *ngFor="let fruit of fruits">
+    {{fruit}}
+</div>
+<h2>Hello {{parentData}}</h2>
+
+<button (click)="fireEvent()">Send Event</button>
+
+
+<button (click)="onClick()">Success</button>
+<h4 [class]="dangerClass">Danger</h4><!--class binding-->
+
+
+

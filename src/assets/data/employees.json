@@ -1,0 +1,30 @@
+
+
+
+[
+    {
+        "id": 1,
+        "name": "Rahat",
+        "city": "Dhaka"
+    },
+    {
+        "id": 2,
+        "name": "Nur",
+        "city": "Khulna"
+    },
+    {
+        "id": 3,
+        "name": "Onik",
+        "city": "Sylhet"
+    },
+    {
+        "id": 4,
+        "name": "Siam",
+        "city": "Dhaka"
+    },
+    {
+        "id": 5,
+        "name": "Ashad",
+        "city": "Rajshahi"
+    }
+]
